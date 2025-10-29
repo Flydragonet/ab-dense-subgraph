@@ -17,6 +17,9 @@ Datasets used for performance studies.
 | Orkut | http://www.konect.cc/networks/orkut-groupmemberships/ |
 | Twitter | http://www.konect.cc/networks/twitter/ |
 
+Since the KONECT website link is temporarily inaccessible, three datasets are provided instead.
+You can access them via the following link: [Google Drive Folder](https://drive.google.com/drive/folders/1M18y2zYuFzcnjTrNkonRLG2U2l2UxSrb?usp=sharing)
+
 # Preprocess
 
 The dataset needs to be preprocessed into a specific format file to be input by the algorithm, with the format as follows: The first line consists of three integers representing |E|, |U|, |V|. Each subsequent line contains two numbers representing an edge (u, v). Note that |U| should be equal to the maximum value of u among all edges, and |V| should be equal to the maximum value of v among all edges. An example is given below, representing a (2,2)-clique:
